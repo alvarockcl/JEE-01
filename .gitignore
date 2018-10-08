@@ -1,1 +1,5 @@
 test/
+/target/
+.classpath
+.settings
+.project
