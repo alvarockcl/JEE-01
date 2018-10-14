@@ -16,6 +16,12 @@
   	<description></description>
   	<servlet-class>cl.fuentes.servlet.Demo02</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>Demo03</servlet-name>
+  	<display-name>Demo03</display-name>
+  	<description></description>
+  	<servlet-class>cl.fuentes.servlet.Demo03</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>Demo01</servlet-name>
   	<url-pattern>/Demo01</url-pattern>
@@ -23,5 +29,9 @@
   <servlet-mapping>
   	<servlet-name>Demo02</servlet-name>
   	<url-pattern>/Demo02</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Demo03</servlet-name>
+  	<url-pattern>/Demo03</url-pattern>
   </servlet-mapping>
 </web-app>
